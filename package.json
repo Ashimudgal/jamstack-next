@@ -56,6 +56,7 @@
     "@graphql-codegen/typescript-operations": "^1.17.9",
     "@graphql-codegen/typescript-react-apollo": "^2.1.1",
     "@graphql-codegen/typescript-resolvers": "^1.17.10",
+    "@netlify/plugin-nextjs": "^3.3.0",
     "@sitecore-jss/sitecore-jss-cli": "^16.0.0",
     "@sitecore-jss/sitecore-jss-dev-tools": "^16.0.0",
     "@sitecore-jss/sitecore-jss-manifest": "^16.0.0",
