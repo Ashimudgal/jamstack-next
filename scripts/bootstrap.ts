@@ -16,7 +16,9 @@ const disconnected = process.env.JSS_MODE === JSS_MODE_DISCONNECTED;
   that the app can import and use.
 */
 const port = process.env.PORT || 3000;
-const configOverride = disconnected ? { sitecoreApiHost: `http://localhost:${port}` } : undefined;
+
+const configOverride = disconnected ? { sitecoreApiHost: `https://admiring-edison-1086f0.netlify.app` } : undefined;
+//const configOverride = disconnected ? { sitecoreApiHost: `http://localhost:${port}` } : undefined;
 
 generateConfig(configOverride);
 

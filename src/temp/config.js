@@ -3,7 +3,7 @@
 // See scripts/bootstrap.ts to modify the generation of this file.
 const config = {};
 config.sitecoreApiKey = process.env.SITECORE_API_KEY || "no-api-key-set",
-config.sitecoreApiHost = process.env.SITECORE_API_HOST || "http://localhost:3000",
+config.sitecoreApiHost = process.env.SITECORE_API_HOST || "https://admiring-edison-1086f0.netlify.app",
 config.jssAppName = process.env.JSS_APP_NAME || "jssnext",
 config.graphQLEndpointPath = process.env.GRAPH_QL_ENDPOINT_PATH || "/sitecore/api/graph/edge",
 config.graphQLEndpoint = `${config.sitecoreApiHost}${config.graphQLEndpointPath}?sc_apikey=${config.sitecoreApiKey}`;
