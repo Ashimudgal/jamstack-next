@@ -1,7 +1,6 @@
 import { Text, RichText, Field } from '@sitecore-jss/sitecore-jss-nextjs';
 import { StyleguideComponentProps } from 'lib/component-props';
-import {GetServerSideProps,InferGetServerSidePropsType,NextPage} from "next";
-import NewsBlock from "./APIResponse";
+
 
 type ContentBlockProps = StyleguideComponentProps & {
   fields: {
