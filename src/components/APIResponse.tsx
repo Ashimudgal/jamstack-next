@@ -1,9 +1,9 @@
 import {GetServerSideProps,InferGetServerSidePropsType,NextPage} from "next";
 
-type Data={
-    item:string;
-    index:number;
-}
+// type Data={
+//     item:string;
+//     index:number;
+// }
 
 interface Props {
   data: {};
